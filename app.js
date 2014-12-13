@@ -38,6 +38,7 @@ var argv = rc('peerflix', {}, optimist
 	.alias('e', 'peer').describe('e', 'add peer by ip:port')
 	.alias('x', 'peer-port').describe('x', 'set peer listening port')
 	.alias('d', 'not-on-top').describe('d', 'do not float video on top').boolean('d')
+	.alias('u', 'uploads').describe('u', 'number of upload slots')
 	.describe('on-downloaded', 'script to call when file is 100% downloaded')
 	.describe('on-listening', 'script to call when server goes live')
 	.describe('version', 'prints current version').boolean('boolean')
